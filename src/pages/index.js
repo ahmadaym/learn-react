@@ -7,13 +7,15 @@ import Profile from './components/profile.js'
 import Snapshot from './components/snapshot2.js';
 import QueueUpdates from './components/queueUpdates.js'
 import ShoppingCart from './solncomps/shoppingCart.js'
+import UpdObjectsForm from './qcomps/updObjectsForm.js';
 export default function Home() {
   return (
     <div className={styles.main}>
         {/* <Profile /> */}
         {/* <Snapshot></Snapshot> */}
         {/* <QueueUpdates></QueueUpdates> */}
-        <ShoppingCart></ShoppingCart>
+        {/* <ShoppingCart></ShoppingCart> */}
+        <UpdObjectsForm/>
     </div>
   )
 }
