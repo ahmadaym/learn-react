@@ -9,6 +9,8 @@ import QueueUpdates from './components/queueUpdates.js'
 import ShoppingCart from './solncomps/shoppingCart.js'
 import UpdObjectsForm from './qcomps/updObjectsForm.js';
 import ArtistArr from './qcomps/artistsArr.js'
+import ArtistRemoveArr from './qcomps/artistsRemoveArr.js'
+
 export default function Home() {
   return (
     <div className={styles.main}>
@@ -17,7 +19,8 @@ export default function Home() {
         {/* <QueueUpdates></QueueUpdates> */}
         {/* <ShoppingCart></ShoppingCart> */}
         {/* <UpdObjectsForm/> */}
-        <ArtistArr/>
+        {/* <ArtistArr/> */}
+        <ArtistRemoveArr/>
 
     </div>
   )
