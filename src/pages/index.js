@@ -10,6 +10,7 @@ import ShoppingCart from './solncomps/shoppingCart.js'
 import UpdObjectsForm from './qcomps/updObjectsForm.js';
 import ArtistArr from './qcomps/artistsArr.js'
 import ArtistRemoveArr from './qcomps/artistsRemoveArr.js'
+import ArrObj from './qcomps/arrObj.js'
 
 export default function Home() {
   return (
@@ -20,7 +21,8 @@ export default function Home() {
         {/* <ShoppingCart></ShoppingCart> */}
         {/* <UpdObjectsForm/> */}
         {/* <ArtistArr/> */}
-        <ArtistRemoveArr/>
+        {/* <ArtistRemoveArr/> */}
+        <ArrObj />
 
     </div>
   )
